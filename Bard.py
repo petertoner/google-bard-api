@@ -201,3 +201,5 @@ if __name__ == "__main__":
             print()
     except KeyboardInterrupt:
         print("Exiting...")
+        
+        app.router.add_route("/", home)
